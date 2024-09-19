@@ -16,9 +16,3 @@ https://blue-bear.jp/kb/amazon-linux2023%E3%81%ABgit%E3%82%92%E3%82%A4%E3%83%B3%
 
 nginx site enabled
 https://stackoverflow.com/a/21742578
-
-- Commands:
-sudo curl -L "https://github.com/docker/compose/releases/download/v2.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-
-sudo certbot certonly --standalone --email ngovanhuy.cntt3@gmail.com -d finbertngo.com -d hatjitsu.finbertngo.com
-sudo ln -s /etc/nginx/sites-available/finbertngo.conf /etc/nginx/sites-enabled/finbertngo.conf
