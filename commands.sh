@@ -8,3 +8,6 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 # certbot ssl
 sudo certbot certonly --standalone --email ngovanhuy.cntt3@gmail.com -d finbertngo.com -d walica-be.finbertngo.com -d walica-fe.finbertngo.com
+
+# pnpm install
+curl -fsSL https://get.pnpm.io/install.sh | sh -
